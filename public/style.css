@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(#ffffff, #c0c0c0);
+    height: 300vh;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    color: #c0c0c0;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+  }
+  
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .single-campus {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .smaller-picture {
+    width: 200px;
+  }
+  .bigger-picture {
+    width: 1000px;
+  }
+  .bigger-picture2 {
+    height: 500px;
+  }
+  .listAll {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  .listItem {
+    display: flex;
+    width: 400px;
+    background-color: lightblue;
+    justify-content: space-around;
+    align-items: center;
+    border : 2px;
+    margin: 10px;
+    padding: 5px ;
+    border-color: black;
+    border-style: solid;
+  }
+  .navLink {
+    color: yellow;
+  
+  }
+  .navLinks {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .single-student {
+    align-items: center;
+  }
+  .delete-button {
+    width: 25px;
+  }
+  .update-div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding:5px;
+    background-color:lightblue;
+    width: fit-content;
+    border-color: black;
+    border-style: solid;
+  }
+  .update-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    margin: 10px;
+    padding:5px;
+    background-color:lightblue;
+    border-color: black;
+    border-style: solid;
+  }
+  .add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
